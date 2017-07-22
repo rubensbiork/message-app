@@ -1,11 +1,11 @@
 # Relay Message App
   An app with React/Relay/GraphQL.
 
-  Extra:
-  	- Responsive layout with flexbox
-  	- Auto scroll to bottom
-  	- Layout supports huge text
-  	- Added some tests
+  Also:  
+  	- Responsive layout with flexbox  
+  	- Auto scroll to bottom  
+  	- Layout supports huge text  
+  	- Added some tests  
 
 ## To run
 
