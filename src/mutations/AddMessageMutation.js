@@ -13,6 +13,7 @@ const mutation = graphql`
         node {
           id
           text
+          createdAt
         }
       }
       viewer {
