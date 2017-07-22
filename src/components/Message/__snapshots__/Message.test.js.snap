@@ -1,0 +1,407 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/<Message /> Should display input after clicking in edit icon 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <li
+    className="message-wrapper editing"
+>
+    <div>
+        <MessageInput
+            className="edit"
+            existingValue="some-text"
+            onCancel={[Function]}
+            onDelete={[Function]}
+            onSave={[Function]}
+            placeholder=""
+        />
+    </div>
+</li>,
+  "nodes": Array [
+    <li
+      className="message-wrapper editing"
+>
+      <div>
+            <MessageInput
+                  className="edit"
+                  existingValue="some-text"
+                  onCancel={[Function]}
+                  onDelete={[Function]}
+                  onSave={[Function]}
+                  placeholder=""
+            />
+      </div>
+</li>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <Message
+        message={
+                Object {
+                        "createdAt": "2017-07-22T18:05:26Z",
+                        "text": "some-text",
+                      }
+        }
+        viewer={
+                Object {
+                        "avatar": "some-url",
+                      }
+        }
+/>,
+      "_debugID": 7,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Message {
+        "_onDestroyClick": [Function],
+        "_onEditClick": [Function],
+        "_onInputCancel": [Function],
+        "_onInputSave": [Function],
+        "_reactInternalInstance": [Circular],
+        "_setEditMode": [Function],
+        "context": Object {},
+        "props": Object {
+          "message": Object {
+            "createdAt": "2017-07-22T18:05:26Z",
+            "text": "some-text",
+          },
+          "viewer": Object {
+            "avatar": "some-url",
+          },
+        },
+        "refs": Object {},
+        "state": Object {
+          "isEditing": true,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 4,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <li
+          className="message-wrapper editing"
+>
+          <div>
+                    <MessageInput
+                              className="edit"
+                              existingValue="some-text"
+                              onCancel={[Function]}
+                              onDelete={[Function]}
+                              onSave={[Function]}
+                              placeholder=""
+                    />
+          </div>
+</li>,
+        "_debugID": 8,
+        "_renderedOutput": <li
+          className="message-wrapper editing"
+>
+          <div>
+                    <MessageInput
+                              className="edit"
+                              existingValue="some-text"
+                              onCancel={[Function]}
+                              onDelete={[Function]}
+                              onSave={[Function]}
+                              placeholder=""
+                    />
+          </div>
+</li>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Message
+    message={
+        Object {
+            "createdAt": "2017-07-22T18:05:26Z",
+            "text": "some-text",
+          }
+    }
+    viewer={
+        Object {
+            "avatar": "some-url",
+          }
+    }
+/>,
+}
+`;
+
+exports[`components/<Message /> Should render 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <li
+    className="message-wrapper "
+>
+    <div>
+        <div>
+            <img
+                className="img-circle"
+                src="some-url"
+            />
+            <div
+                className="speech-bubble"
+            >
+                <div
+                    className="main-message"
+                >
+                    some-text
+                </div>
+            </div>
+            <div
+                className="time-message"
+            >
+                22-7-2017 20:05
+            </div>
+            <div
+                className="rename"
+                onClick={[Function]}
+            >
+                <Unknown
+                    className="edit-icon"
+                />
+            </div>
+            <button
+                className="destroy"
+                onClick={[Function]}
+            />
+        </div>
+    </div>
+</li>,
+  "nodes": Array [
+    <li
+      className="message-wrapper "
+>
+      <div>
+            <div>
+                  <img
+                        className="img-circle"
+                        src="some-url"
+                  />
+                  <div
+                        className="speech-bubble"
+                  >
+                        <div
+                              className="main-message"
+                        >
+                              some-text
+                        </div>
+                  </div>
+                  <div
+                        className="time-message"
+                  >
+                        22-7-2017 20:05
+                  </div>
+                  <div
+                        className="rename"
+                        onClick={[Function]}
+                  >
+                        <Unknown
+                              className="edit-icon"
+                        />
+                  </div>
+                  <button
+                        className="destroy"
+                        onClick={[Function]}
+                  />
+            </div>
+      </div>
+</li>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <Message
+        message={
+                Object {
+                        "createdAt": "2017-07-22T18:05:26Z",
+                        "text": "some-text",
+                      }
+        }
+        viewer={
+                Object {
+                        "avatar": "some-url",
+                      }
+        }
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Message {
+        "_onDestroyClick": [Function],
+        "_onEditClick": [Function],
+        "_onInputCancel": [Function],
+        "_onInputSave": [Function],
+        "_reactInternalInstance": [Circular],
+        "_setEditMode": [Function],
+        "context": Object {},
+        "props": Object {
+          "message": Object {
+            "createdAt": "2017-07-22T18:05:26Z",
+            "text": "some-text",
+          },
+          "viewer": Object {
+            "avatar": "some-url",
+          },
+        },
+        "refs": Object {},
+        "state": Object {
+          "isEditing": false,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <li
+          className="message-wrapper "
+>
+          <div>
+                    <div>
+                              <img
+                                        className="img-circle"
+                                        src="some-url"
+                              />
+                              <div
+                                        className="speech-bubble"
+                              >
+                                        <div
+                                                  className="main-message"
+                                        >
+                                                  some-text
+                                        </div>
+                              </div>
+                              <div
+                                        className="time-message"
+                              >
+                                        22-7-2017 20:05
+                              </div>
+                              <div
+                                        className="rename"
+                                        onClick={[Function]}
+                              >
+                                        <Unknown
+                                                  className="edit-icon"
+                                        />
+                              </div>
+                              <button
+                                        className="destroy"
+                                        onClick={[Function]}
+                              />
+                    </div>
+          </div>
+</li>,
+        "_debugID": 2,
+        "_renderedOutput": <li
+          className="message-wrapper "
+>
+          <div>
+                    <div>
+                              <img
+                                        className="img-circle"
+                                        src="some-url"
+                              />
+                              <div
+                                        className="speech-bubble"
+                              >
+                                        <div
+                                                  className="main-message"
+                                        >
+                                                  some-text
+                                        </div>
+                              </div>
+                              <div
+                                        className="time-message"
+                              >
+                                        22-7-2017 20:05
+                              </div>
+                              <div
+                                        className="rename"
+                                        onClick={[Function]}
+                              >
+                                        <Unknown
+                                                  className="edit-icon"
+                                        />
+                              </div>
+                              <button
+                                        className="destroy"
+                                        onClick={[Function]}
+                              />
+                    </div>
+          </div>
+</li>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Message
+    message={
+        Object {
+            "createdAt": "2017-07-22T18:05:26Z",
+            "text": "some-text",
+          }
+    }
+    viewer={
+        Object {
+            "avatar": "some-url",
+          }
+    }
+/>,
+}
+`;

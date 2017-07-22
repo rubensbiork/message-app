@@ -1,0 +1,33 @@
+.message-list-wrapper {
+	.message-list {
+		margin: 0;
+	  padding: 0;
+	  list-style: none;
+	  min-height: 300px;
+	  max-height: 300px;
+	  overflow-y: auto;
+
+		.no-message {
+			font-size: 24px;
+			width: calc(100% - 10px);
+			border-radius: 10px;
+			background: #eceff1;
+			text-align: center;
+			line-height: 4.4;
+			color: #969696;
+			font-weight: 400;
+			box-shadow: 3px 3px 9px #968989;
+		}
+	}
+
+	.counter {
+		padding: 10px;
+		display: inline-block;
+		color: #969696;
+		font-weight: 500;
+		margin-bottom: 20px;
+		border-radius: 5px;
+		background: #eceff1;
+		box-shadow: 3px 3px 9px #968989;
+	}
+}
