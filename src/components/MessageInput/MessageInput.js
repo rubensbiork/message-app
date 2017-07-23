@@ -55,7 +55,6 @@ MessageInput.defaultProps = {
   className: '',
   existingValue: '',
   onCancel: () => {},
-  onDelete: () => {},
   onSave: () => {},
   placeholder: '',
 };
@@ -64,7 +63,6 @@ MessageInput.propTypes = {
   className: PropTypes.string,
   existingValue: PropTypes.string,
   onCancel: PropTypes.func,
-  onDelete: PropTypes.func,
   onSave: PropTypes.func.isRequired,
   placeholder: PropTypes.string,
 };

@@ -46,6 +46,10 @@ describe('components/<Message />', () => {
     editIcon.simulate('click');
 
     expect(
+      component.state().isEditing
+    ).toBeTruthy();
+
+    expect(
       component
     ).toMatchSnapshot();
   });
